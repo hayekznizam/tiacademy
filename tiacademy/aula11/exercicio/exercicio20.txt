@@ -1,0 +1,15 @@
+Exercício 20
+1. Qual a propriedade CSS que permite aplicar um degradê em um elemento HTML?
+Gradient.
+
+2. Por padrão, é recomendado que a aplicação do CSS seja na forma inline ou mesmo no próprio
+corpo do código html.
+
+Quando é aplicado dentro do próprio corpo do html não há necessidade de carregar vários arquivos, porém
+o conteúdo em si fica maior.
+Quando aplicado externo temos uma estrutura mais limpa e o mesmo arquivo pode ser usado várias vezes. Porém
+precisa de carregaramento externo
+3. Qual a diferença básica entre a aunidade de medida pixel e a unidade em percentual?
+Quando definimos em pixel temos um valor absoluto, quando em porcentagem vai depender do tamanho
+do viewport.
+

@@ -1,0 +1,5 @@
+1. Qual é a tag semântica que servirá de contêiner para as tags de parágrafo <p>?
+Seria a tag article
+
+2. Uma tag de páragrafo pode ser substituída por uma tag <div> principalmente para conter textos longos?
+Não, pois ela não é mais utilizada.
