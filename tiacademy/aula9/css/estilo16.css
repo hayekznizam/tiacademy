@@ -1,0 +1,15 @@
+/*resetando as propriedades do proprio navegador*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#novo {
+  background-image: url(../img/saude_frutas_banana.jpg);
+  background-repeat: repeat-y;
+  background-size: 25%;
+  width: 800px;
+  height: 600px;
+  border: 1px solid black;
+}
