@@ -1,0 +1,9 @@
+1. É verdade que todo arquivo CSS precisa estar dentro de outra pasta para que 
+o navegador possa renderizar os estilos das propriedades CSS? 
+Não ele pode estar separado, porém o recomendado é que mantenha os arquivos separados e organizados.
+2. É verdade que todo elemento HTML possui por padrão elementos filhos?
+Não, não é verdade. Mas alguns elementos em HTML podem ter elementos filhos.
+
+3. O que é o viewport? 
+é a área visível pelo usuário na página web.
+
