@@ -4,6 +4,7 @@ PAI > FILHO1 > FILHO_DO_FILHO
 
 2. A propriedade CSS background-size permitirá renderizar um tamanho, além de alterar o 
 tamanho do arquivo.
+Não necessariamente, ele irá renderizar mas ele não altera o tamanho do arquivo original.
 
 3. A tag responsável por criar títulos em até 6 níveis é a HEADER.
-h1...h6 
+Quem cria essa sequência de títulos é a h1...h6 
