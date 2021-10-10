@@ -1,0 +1,16 @@
+/*resetando as propriedades do proprio navegador*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: thistle;
+}
+
+.menu ul li {
+  display: inline-block;
+  padding-right: 4px;
+  list-style: none;
+}
