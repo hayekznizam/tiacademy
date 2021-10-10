@@ -1,0 +1,13 @@
+1. Como podemos definir uma URL, dê um exemplo.
+
+Um conjunto de elementos que corresponde ao protocolo http, ao endereço de domínio e as páginas
+agregadas a esse domínio. 
+
+
+
+2. O que é  o HTTP?
+Protocolo de comunicação para sistemas na internet. 
+
+3. O que são vendors em CSS?
+
+São os prefixos que as produtoras de browser disponibilizam no css para que possamos testar no css
