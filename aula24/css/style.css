@@ -1,0 +1,69 @@
+/*resetando as propriedades do proprio navegador*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.paleta {
+  color: #e53935;
+  color: #434f55;
+  color: #2e7d32;
+  color: #cfd8dc;
+}
+
+.root {
+  font-size: 100%;
+  --cor-border-geral: #cfd8dc;
+  --cor-padrao-fonte: #434f55;
+  --font-padrao: verdana, arial;
+  --font-cor-titulo: #e53935;
+}
+a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: var(--font-padrao);
+  color: var(--cor-padrao-fonte);
+}
+
+header,
+main,
+footer {
+  width: 80%;
+  margin: auto;
+}
+
+header#top-header {
+  border-top: 10px solid var(--cor-border-geral);
+  height: 60px;
+}
+
+.flex {
+  display: flex;
+}
+
+header#top-header h1,
+header#top-header nav {
+  width: 50%;
+}
+
+/* header#top-header nav {
+} */
+
+header#top-header h1 {
+  color: #e53935;
+  font-family: var(--font-padrao);
+  font-size: 2.2rem;
+  align-items: center;
+}
+
+header#top-header nav ul {
+  width: 100%;
+  background-color: crimson;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  width: 120px;
+  justify-content: center;
+  align-items: center;
+}
