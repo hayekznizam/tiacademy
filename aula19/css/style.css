@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+main {
+  width: 50vw;
+  margin: 40px auto;
+  height: auto;
+  background-color: rgb(232, 245, 233);
+  border: 1px solid rgb(156, 204, 101);
+  padding: 30px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-collapse: collapse;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+thead th {
+  background-color: violet;
+  color: #fff;
+}
