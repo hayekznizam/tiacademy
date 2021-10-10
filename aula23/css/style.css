@@ -1,0 +1,64 @@
+/*resetando as propriedades do proprio navegador*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+main,
+header,
+footer {
+  width: 80%;
+  background-color: rgb(255, 235, 59);
+  margin: 10px auto 10px auto;
+}
+
+main {
+  height: auto;
+}
+
+header {
+  height: 60px;
+}
+footer {
+  height: auto;
+}
+.ajusteTamanho {
+  height: 30vh;
+  background-color: rgb(158, 157, 36);
+}
+.content-card > div,
+footer > div {
+  width: 48%;
+  height: 200px;
+  background-color: rgb(239, 108, 0);
+}
+.flex {
+  display: flex;
+}
+
+.space-btw {
+  justify-content: space-between;
+}
+
+section {
+  margin: 10px 0 10px 0;
+  background-color: darkcyan;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    background-color: black;
+  }
+
+  section {
+    height: auto;
+    flex-direction: column;
+  }
+
+  section.content-card > div {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
