@@ -24,13 +24,27 @@
   </header>
   <main>
     <section id="section-cards" class="flex">
-      <div class="flex card">
-        <figure>
-          <img src="img/pizza_massa_marguerita.jpg" alt="pizza da mama">
+      <div class="card">
+        <figure class="card-img-pizza">
+          <img class="img-pizza" src="img/pizza_massa_marguerita.jpg" alt="pizza da mama">
         </figure>
+        <h2 class="sub-titulo-pizza">PIZZA NAPOLITANA</h2>
 
+        <form action="" name="controle-tamanho" class="flex formTamanhoPizza">
+          <label class="flex" for="p">P
+            <input type="radio" name="tamanho-pizza" id="p" value="p">
+          </label>
+          <label class="flex" for="m">
+            M
+            <input type="radio" name="tamanho-pizza" id="m" value="m">
+          </label>
+          <label class="flex" for="g">
+            G
+            <input type="radio" name="tamanho-pizza" id="g" value="g">
+          </label>
+          <input type="button" value="DELICIAR" clas="btn">
+        </form>
       </div>
-
     </section>
   </main>
   <footer></footer>
