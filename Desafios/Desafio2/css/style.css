@@ -1,0 +1,47 @@
+/*resetando as propriedades do proprio navegador*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  font-family: 'Material Icons';
+  width: 100%;
+  height: 250px;
+  background: rgb(34, 67, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 67, 195, 1) 0%,
+    rgba(45, 129, 253, 1) 100%
+  );
+}
+
+fieldset {
+  padding: 2px;
+  border: 0px 2px 0 2px solid black;
+}
+section#formulario {
+  width: 50%;
+  margin: 30px auto;
+  padding: 5px;
+}
+
+form {
+  width: 100%;
+  height: auto;
+  padding: 2px;
+}
+
+label {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 2px;
+  margin: 1px solid black;
+}
+
+.txt {
+  width: 100%;
+  height: 30px;
+}
